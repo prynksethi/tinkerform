@@ -143,6 +143,140 @@ a.selected h1 {
 .work {
 	width: 100%;
 }
+.work .work-statement {
+	transform: rotate(-1deg);
+	top: 40%;
+}
+.work .works {
+	height: 444px;
+	width: 100%;
+	background: red;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative ;
+	top: 600px;
+}
+/*.gayab {
+	height: 444px;
+	width: 100%;
+	background: red;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative ;
+	top: 600px;
+	display: block !important;
+}
+*/.work .filters {
+	text-align: center;
+}
+.work .filters div {
+	display: inline-block;
+	background:#ececec;
+	border:1px solid #3d3d3d;
+	border-radius:4px;
+	width:172px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	color: #3d3d3d;
+	font-family: 'Quicksand', 'Arial';
+	font-size:24px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.work .filters div a {
+	color: #3d3d3d;
+}
+.work .filters div:hover, .work .filters div a:hover, .work .filters div:hover a, .selected-filter, .selected-filter a {
+	background:#3d3d3d !important;
+	color: #ffffff !important;
+}
+.work .work1 {
+	width: 100%;
+	background-image: linear-gradient(230deg, #42AF9D 0%, #9CD2A4 100%);
+	height:444px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	position: absolute;
+}
+.work .work1 .work-front {
+	width: 100%;
+	height: 100%;
+}
+.work .work1 .vertical-line {
+  	height: 100%;
+	position: absolute;
+	right: 85px;
+}
+.work .work1 .action-icons {
+	position: absolute;
+	right: 55px;
+	top: 90px;
+}
+.work .work1 .action-icons div {
+	margin-bottom: 55px;
+	text-align: center;
+	border-radius: 50%;
+	background: #ececec;
+	cursor: pointer;
+}
+.work .work1 .action-icons div:nth-child(2) {
+	width: 62px;
+	height: 62px;
+	border: 1px solid;
+}
+.work .work1 .action-icons div:nth-child(2) svg {
+	padding-top: 16px;
+}
+.work .work1 .action-icons div:hover svg g, .work .work1 .action-icons div svg:hover g {
+	fill: #ececec;
+}
+.work .work1 .action-icons div:hover:nth-child(2) {
+	background: #535353;
+	border: 1px solid #ececec;
+}
+.work .work1 .action-icons div:hover:nth-child(3), .work .work1 .action-icons div:hover:first-child {
+	background: #535353;
+}
+.work .work1 .action-icons div:nth-child(3), .work .work1 .action-icons div:first-child {
+	width: 46px;
+	height: 46px;
+	margin-left: 8px;
+}
+.work .work1 .action-icons div:nth-child(3) svg {
+	padding-top: 10px;
+}
+.work .work1 .action-icons div:first-child svg {
+	padding-top: 11px;
+}
+.work .work1 .work1-tagline {
+	text-align: center;
+}
+.work .work1 .work1-tagline img {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 160px;
+}
+.work .work1 .work1-tagline h2 {
+	font-family: 'Quicksand', 'Arial';
+	font-size:28px;
+	color:#414443;
+	display: block;
+}
+.work .work1 .work-content {
+	position: absolute;
+	bottom: -2px;
+	width: 74%;
+	left: 13%;
+}
+.work .work1 .work-content img {
+	width: 179px;
+}
+.work .work1 .work-content div {
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+}
 .menu-bar {
 	height: 100%;
 	width: 0;
@@ -195,41 +329,6 @@ a.selected h1 {
 .hamburger {
 	right: 30px;
 }
-/*
-@media only screen and (max-width: 1440px) {
-    .brand-identity-container img {
-		width: 28%;
-	}
-}
-@media only screen and (max-width: 1025px) {
-	a {
-		font-size: 22px;
-	}
-	h1 {
-		font-size: 24px;
-	}
-	a.selected h1 {
-		font-size: 26px;
-	}
-	.brand-identity-container img {
-		width: 36%;
-	}
-	p.tag-line {
-		font-size: 22px;
-	}
-}*/
-
-/*@media only screen and (max-width: 768px) {
-	a {
-		font-size: 24px;
-	}
-	h1 {
-		font-size: 26px;
-	}
-	a.selected h1 {
-		font-size: 28px;
-	}
-}*/
 @media only screen and (max-width: 1200px) {
 .brand-identity-container {
 	width: 80%;
