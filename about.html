@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<script> 
+// $(function(){
+//   $("#header").load("header.html"); 
+//   $("#footer").load("footer.html"); 
+// });
+</script> 
+</head>
+<body>
+<div class="about">
+	<div id="header">
+		<div class="header-logo"><a href="index.html"><img width="120" src="images/logo.svg"></a></div>
+		<div class="about-statement sentence-about">We are all <a href=""><h1 class="highlight">ABOUT</h1></a> working hand in glove with business and tech.</div>
+		<a class="hamburger" onclick="openNav()"><img width="60" src="images/hamburger.png"></a>
+		<div class="menu-bar" id="mySidenav">
+		<a class="closebtn" onclick="closeNav()"><img src="images/close.png"></a>
+			<div class="menu-item text-center">
+				
+				<a href="javascript:;" class="statement one"><h1 class="highlight">TINKERFORM</h1></a>
+				<a href="work.html" class="statement"><h1>WORK</h1></a>
+				<a href="about.html" class="statement selected"><h1>ABOUT</h1></a>
+				<a href="" class="statement"><h1>CONTACT US</h1></a>
+			</div>
+		</div>
+	</div>
+	<div class="about-tabs" id="tabs">
+	  <ul>
+	    <li class="active"><a class="tab1" href="#tabs-1"><img src="images/about/philosophy.png" onmouseover="this.src='images/about/philosophy-high.png'" onmouseout="this.src='images/about/philosophy.png'"><br>PHILOSOPHY</a></li>
+	    <li><a class="tab2" href="#tabs-2"><img src="images/about/approach.png" onmouseover="this.src='images/about/approach-high.png'"onmouseout="this.src='images/about/approach.png'"><br>APPROACH</a></li>
+	    <li><a class="tab3" href="#tabs-3"><img src="images/about/offerings.png" onmouseover="this.src='images/about/offerings-high.png'"onmouseout="this.src='images/about/offerings.png'"><br>OFFERINGS</a></li>
+	    <li><a class="tab4" href="#tabs-4"><img src="images/about/team.png" onmouseover="this.src='images/about/team-high.png'"onmouseout="this.src='images/about/team.png'"><br>TEAM</a></li>
+	  </ul>
+	  <div class="tab-body"  id="tabs-1">
+	  	<h2>tin.ker.form</h2>
+	  	<p class="dim-heading">noun</p>
+	  	<div class="back1">
+	  		<img src="images/about/philosophy/philosophy-back1.png">
+	  	</div>
+	  	<p>a design and innovation consultancy</p>
+	  	<p class="dim-heading">verb</p>
+	  	<p>a process of playful exploration to reach a desired outcome</p>
+	  	<p class="dim-heading dashline">usage</p>
+	  	<div class="back2">
+	  		<img src="images/about/philosophy/philosophy-back2.png">
+	  	</div>
+	  	<span></span>
+	  	<p class="dim-heading">[ formal ]</p>
+	  	<p>"at some point during those intense weeks of working with Tinkerform it almost felt like they cared even more than us"</p>
+	  	<p class="dim-heading">[ informal ]</p>
+	  	<p>"we firmly believe that universe was tinkerformed into it's existence. We are all it's babies"</p>
+	  	<div class="philosophy-bottom">	  
+	  		<img class="image1" src="images/about/philosophy/philosophy-bottom1.png">
+	  		<img src="images/about/philosophy/philosophy-bottom2.png">
+	  	</div>
+	  </div>
+	  <div class="tab-body" id="tabs-2">
+	  	<h2>do e.p.i.c shit.</h2>
+	  	<div class="approach-body">
+	  		<img class="" src="images/about/black1.png">
+	  		<img src="images/about/approach-body.png">
+	  	</div>
+	  	<span></span>
+	  	<div class="back1">
+	  		<img src="images/about/approach/approach-back1.png">
+	  	</div>
+	  	<p class="dim-heading">co-work</p>
+	  	<p>we conduct weekly workshops with our clients which eases communcation and lets us tap into our client's expertise</p>
+	  	<p class="dim-heading">focus on design strategy</p>
+	  	<div class="back2">
+	  		<img src="images/about/approach/approach-back2.png">
+	  	</div>
+	  	<p>we focus at the overall concept and design strategy of your product and not just it's UI</p>
+	  	<p class="dim-heading">user first</p>
+	  	<p>our user first approach makes sure we talk to real users and collect qualitative data before we dive into design</p>
+	  	<div class="approach-bottom">
+	  		<img src="images/about/approach/approach-bottom.png">
+	  	</div>
+	  </div>
+	  <div class="tab-body offering-tab" id="tabs-3">
+	  	<h2>"umm.. so what do you do again?"</h2>
+	  	<div class="offering1">
+	  		<img class="black-back" src="images/about/black1.png">
+	  		<div class="offering-content1">
+		  		<div class="width1-2 pad-20">
+		  			<img src="images/about/offering/offering1.png"/>
+		  		</div>
+		  		<div class="width1-2">
+		  			<p class="dim-heading">product design sprint</p>
+		  			<p>transforming a value proposition into a product quickly and effectively.</p>
+		  		</div>
+		  	</div>
+	  	</div>
+	  	<div class="offering2">
+	  		<img class="black-back" src="images/about/black2.png">
+	  		<div class="offering-content2">
+		  		<div class="width1-2 pad-20">
+		  			<img src="images/about/offering/offering2.png"/>
+		  		</div>
+		  		<div class="width1-2">
+		  			<p class="dim-heading">service innovation</p>
+		  			<p>understanding, synthesizing and prototyping every element of your service.</p>
+		  		</div>
+	  		</div>
+	  	</div>
+	  	<div class="offering3">
+	  		<img class="black-back" src="images/about/black3.png">
+	  		<div class="offering-content3">
+		  		<div class="width1-2 pad-30">
+		  			<img src="images/about/offering/offering3.png"/>
+		  		</div>
+		  		<div class="width1-2">
+		  			<p class="dim-heading">expert review</p>
+		  			<p>understand why your Customers are not able to use your product as you had planned.</p>
+		  		</div>
+	  		</div>
+	  	</div>
+	  	<div class="offering4">
+	  		<img class="black-back" src="images/about/black4.png">
+	  		<div class="offering-content4">
+		  		<div class="width1-2 pad-40">
+		  			<img src="images/about/offering/offering4.png"/>
+		  		</div>
+		  		<div class="width1-2">
+		  			<p class="dim-heading">tinkerform workshops</p>
+		  			<p>workshops designed for organisations to aid user centered design and innovation</p>
+		  		</div>
+	  		</div>
+	  	</div>
+	  	<div class="offering-bottom">
+	  		<img src="images/about/offering/offering-bottom.png">
+	  	</div>
+	  </div>
+	  <div class="tab-body" id="tabs-4">
+	  	<div class="member1">
+	  		<h4>Jasmeet Singh Sethi</h4>
+	  		<img src="">
+	  		<p>Founder & CEO <img src=""></p>
+	  		<p>Tinkerer at heart and Designer by proffesion. Jasmeet has worked with various product and service startups from design execution to formulation a design strategy. </p>
+	  	</div>
+	  	<div class="member2">
+	  		<img src="">
+	  		<p> <img src="">Tinkerer</p>
+	  		<p>Tinkerer at heart and Designer by proffesion. Jasmeet has worked with various product and service startups from design execution to formulation a design strategy. </p>
+	  		<h4>Priyanka Sethi</h4>
+	  	</div>
+	  	<div>
+	  		<span></span>
+	  		<p class="dim-heading">Tech Partner</p>
+	  		<img src="">
+	  	</div>
+	  	<div>
+	  		<span></span>
+	  		<p>join us you will?</p>
+	  		<img src="">
+	  		<p>Write to us at</p>
+	  		<a href="">jasmeet@tinkerform.com</a>
+	  	</div>
+	  </div>
+	</div>
+</div>
+
+<!-- <div id="footer"></div> -->
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+	$( function() {
+	    $( "#tabs" ).tabs();
+	});
+
+</script>
+</body>
+</html>
