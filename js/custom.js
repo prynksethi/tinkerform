@@ -8,7 +8,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-var x;
+var x=0;
   $(window).bind('mousewheel', function(event) {
         if (event.originalEvent.wheelDelta >= 0) {
             $(".home-content").addClass("animate").removeClass("animation");
@@ -16,22 +16,42 @@ var x;
             $(".home-content-tablet").addClass("animate").removeClass("animation"); 
         }
     });
+    $(".home").bind("touchstart",function(){
+      if ($(window).width() > 450) {
+        if (x == '0') {
+          $(".home-content").addClass("animate").removeClass("animation");
+          $(".brand-identity").addClass("brand-anime");
+          $(".home-content-tablet").addClass("animate").removeClass("animation"); 
+          x=1;
+        }
+        else {
+          $(".home-content").removeClass("animate");
+          $(".brand-identity").removeClass("brand-anime");
+          $(".home-content-tablet").removeClass("animate");
+          x=0;
+        }
+      }
+    });
 
+    
+    
     $(".statement").hover(function () {
      $(this).addClass('selected').siblings().removeClass('selected');
   });
 
     $(".home").on("click", function(event) {
-      if (x == '0') {
-        $(".home-content").addClass("animate").removeClass("animation");
-        $(".brand-identity").addClass("brand-anime");
-        $(".home-content-tablet").addClass("animate").removeClass("animation"); 
-        x=1;
-    }
-    else {
-      $(".home-content").removeClass("animate");
-        $(".brand-identity").removeClass("brand-anime");
-        $(".home-content-tablet").removeClass("animate");
-        x=0;
+      if ($(window).width() > 450) {
+        if (x == '0') {
+          $(".home-content").addClass("animate").removeClass("animation");
+          $(".brand-identity").addClass("brand-anime");
+          $(".home-content-tablet").addClass("animate").removeClass("animation"); 
+          x=1;
+      }
+      else {
+        $(".home-content").removeClass("animate");
+          $(".brand-identity").removeClass("brand-anime");
+          $(".home-content-tablet").removeClass("animate");
+          x=0;
+      }
     }
   });

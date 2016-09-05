@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+    <meta name="description" content="about tinkerform, its philosophy, approach, offerings and team">
+    <meta name="keywords" content="design strategy, product design sprint, service innovation, expert review, workshops">
+    <meta name="author" content="Tinkerform">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tinkerform-every idea has a form</title>
 
+<link rel="icon" type="image/png" href="images/fevicon.png" />
 <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> -->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/media-query.css">
 <script> 
 // $(function(){
 //   $("#header").load("header.html"); 
@@ -25,20 +31,24 @@
 		<a class="closebtn" onclick="closeNav()"><img src="images/close.png"></a>
 			<div class="menu-item text-center">
 				
-				<a href="javascript:;" class="statement one"><h1 class="highlight">TINKERFORM</h1></a>
+				<a href="index.html" class="statement one"><h1 class="highlight">TINKERFORM</h1></a>
 				<a href="work.html" class="statement"><h1>WORK</h1></a>
 				<a href="about.html" class="statement selected"><h1>ABOUT</h1></a>
-				<a href="" class="statement"><h1>CONTACT US</h1></a>
+				<a href="contact-us.html" class="statement"><h1>CONTACT US</h1></a>
+				<br><br><br>
+				<a href="https://medium.com/we-tinker" target="_blank" class="statement blog-link"><div><img src="images/medium.png"></div><h1>Tinker Stories</h1></a>
 			</div>
 		</div>
 	</div>
 	<div class="about-tabs" id="tabs">
-	  <ul>
-	    <li class="active"><a class="tab1" href="#tabs-1"><img src="images/about/philosophy.png" onmouseover="this.src='images/about/philosophy-high.png'" onmouseout="this.src='images/about/philosophy.png'"><br>PHILOSOPHY</a></li>
-	    <li><a class="tab2" href="#tabs-2"><img src="images/about/approach.png" onmouseover="this.src='images/about/approach-high.png'"onmouseout="this.src='images/about/approach.png'"><br>APPROACH</a></li>
-	    <li><a class="tab3" href="#tabs-3"><img src="images/about/offerings.png" onmouseover="this.src='images/about/offerings-high.png'"onmouseout="this.src='images/about/offerings.png'"><br>OFFERINGS</a></li>
-	    <li><a class="tab4" href="#tabs-4"><img src="images/about/team.png" onmouseover="this.src='images/about/team-high.png'"onmouseout="this.src='images/about/team.png'"><br>TEAM</a></li>
-	  </ul>
+		<div class="tab-area">
+		  <ul>
+		    <li class="active"><a class="tab1" href="#tabs-1"><div class="philosophy-img"></div>PHILOSOPHY</a></li>
+		    <li><a class="tab2" href="#tabs-2"><div class="approach-img"></div>APPROACH</a></li>
+		    <li><a class="tab3" href="#tabs-3"><div class="offering-img"></div>OFFERINGS</a></li>
+		    <li><a class="tab4" href="#tabs-4"><div class="team-img"></div>TEAM</a></li>
+		  </ul>
+	  	</div>
 	  <div class="tab-body"  id="tabs-1">
 	  	<h2>tin.ker.form</h2>
 	  	<p class="dim-heading">noun</p>
@@ -56,7 +66,7 @@
 	  	<p class="dim-heading">[ formal ]</p>
 	  	<p>"at some point during those intense weeks of working with Tinkerform it almost felt like they cared even more than us"</p>
 	  	<p class="dim-heading">[ informal ]</p>
-	  	<p>"we firmly believe that universe was tinkerformed into it's existence. We are all it's babies"</p>
+	  	<p>"we firmly believe that universe was tinkerformed into it's existence. We are all it's children"</p>
 	  	<div class="philosophy-bottom">	  
 	  		<img class="image1" src="images/about/philosophy/philosophy-bottom1.png">
 	  		<img src="images/about/philosophy/philosophy-bottom2.png">
@@ -68,7 +78,7 @@
 	  		<img class="" src="images/about/black1.png">
 	  		<img src="images/about/approach-body.png">
 	  	</div>
-	  	<span></span>
+	  	<span class="ugly-hack"></span>
 	  	<div class="back1">
 	  		<img src="images/about/approach/approach-back1.png">
 	  	</div>
@@ -90,22 +100,25 @@
 	  	<div class="offering1">
 	  		<img class="black-back" src="images/about/black1.png">
 	  		<div class="offering-content1">
-		  		<div class="width1-2 pad-20">
+		  		<div class="width-1-2 pad-20">
 		  			<img src="images/about/offering/offering1.png"/>
 		  		</div>
-		  		<div class="width1-2">
+		  		<div class="width-1-2">
 		  			<p class="dim-heading">product design sprint</p>
 		  			<p>transforming a value proposition into a product quickly and effectively.</p>
 		  		</div>
 		  	</div>
 	  	</div>
+	  	<div class="back1">
+	  		<img src="images/about/philosophy/philosophy-back1.png">
+	  	</div>
 	  	<div class="offering2">
 	  		<img class="black-back" src="images/about/black2.png">
 	  		<div class="offering-content2">
-		  		<div class="width1-2 pad-20">
+		  		<div class="width-1-2 pad-20">
 		  			<img src="images/about/offering/offering2.png"/>
 		  		</div>
-		  		<div class="width1-2">
+		  		<div class="width-1-2">
 		  			<p class="dim-heading">service innovation</p>
 		  			<p>understanding, synthesizing and prototyping every element of your service.</p>
 		  		</div>
@@ -114,22 +127,25 @@
 	  	<div class="offering3">
 	  		<img class="black-back" src="images/about/black3.png">
 	  		<div class="offering-content3">
-		  		<div class="width1-2 pad-30">
+		  		<div class="width-1-2 pad-30">
 		  			<img src="images/about/offering/offering3.png"/>
 		  		</div>
-		  		<div class="width1-2">
+		  		<div class="width-1-2">
 		  			<p class="dim-heading">expert review</p>
 		  			<p>understand why your Customers are not able to use your product as you had planned.</p>
 		  		</div>
 	  		</div>
 	  	</div>
+	  	<div class="back2">
+	  		<img src="images/about/philosophy/philosophy-back2.png">
+	  	</div>
 	  	<div class="offering4">
-	  		<img class="black-back" src="images/about/black4.png">
+	  		<img class="black-back" src="images/about/black3.png">
 	  		<div class="offering-content4">
-		  		<div class="width1-2 pad-40">
+		  		<div class="width-1-2 pad-40">
 		  			<img src="images/about/offering/offering4.png"/>
 		  		</div>
-		  		<div class="width1-2">
+		  		<div class="width-1-2">
 		  			<p class="dim-heading">tinkerform workshops</p>
 		  			<p>workshops designed for organisations to aid user centered design and innovation</p>
 		  		</div>
@@ -139,28 +155,43 @@
 	  		<img src="images/about/offering/offering-bottom.png">
 	  	</div>
 	  </div>
-	  <div class="tab-body" id="tabs-4">
+	  <div class="tab-body tabs-4" id="tabs-4">
+	  	<h2>"Always two there are, no more, no less."</h2>
 	  	<div class="member1">
-	  		<h4>Jasmeet Singh Sethi</h4>
-	  		<img src="">
-	  		<p>Founder & CEO <img src=""></p>
-	  		<p>Tinkerer at heart and Designer by proffesion. Jasmeet has worked with various product and service startups from design execution to formulation a design strategy. </p>
+	  		<div class="width-1-2">
+	  			<img class="team-photo" width="263" src="images/about/founder.png">
+	  		</div>
+	  		<div class="width-1-2">
+		  		<h4 class="member-heading">Jasmeet Singh Sethi</h4>
+		  		<p class="member-designation">Founder & CEO &nbsp;<a href="https://in.linkedin.com/in/jsmtsethi" target="_blank"><img class="linkedin-social" width="30" src="images/linkedin.png"></a></p>
+		  		<p class="member-description">Tinkerer at heart and Designer by profession. Jasmeet has worked with various product and service startups from design execution to formulation a design strategy. </p>
+	  		</div>
+	  	</div>
+	  	<div class="back1">
+	  		<img src="images/about/approach/approach-back1.png">
 	  	</div>
 	  	<div class="member2">
-	  		<img src="">
-	  		<p> <img src="">Tinkerer</p>
-	  		<p>Tinkerer at heart and Designer by proffesion. Jasmeet has worked with various product and service startups from design execution to formulation a design strategy. </p>
-	  		<h4>Priyanka Sethi</h4>
+	  		<div class="width-1-2">
+	  			<img class="team-photo" width="263" src="images/about/mohan.jpg">
+	  		</div>
+	  		<div class="width-1-2 float-left tablet-float-none">
+	  			<h4 class="member-heading">Vivek Mohan</h4>
+		  		<p class="member-designation">Tinkerer <a href="https://in.linkedin.com/in/vivmohan" target="_blank"><img class="linkedin-social" width="30" src="images/linkedin.png"></a></p>
+		  		<p class="member-description">Left a cushy MNC job and moved to India's startup capital to "find himself" and the universe brought him in touch with Tinkerform. The rest as they say, was a gruelling trial-by-fire internship and some kickass work with awesome clients.</p>
+	  		</div>
 	  	</div>
-	  	<div>
-	  		<span></span>
-	  		<p class="dim-heading">Tech Partner</p>
-	  		<img src="">
+	  	<div class="back2">
+	  		<img src="images/about/approach/approach-back2.png">
 	  	</div>
-	  	<div>
-	  		<span></span>
+	  	<span></span>
+	  	<div class="partner-detail">
+	  		<p class="tech-partner">Tech Partner</p>
+	  		<a href="http://www.zehntech.com/" target="_blank"><img src="images/about/zentech.png"></a>
+	  	</div>
+	  	<span></span>
+	  	<div class="contact-detail">	  		
 	  		<p>join us you will?</p>
-	  		<img src="">
+	  		<img width="157" src="images/about/yoda.png">
 	  		<p>Write to us at</p>
 	  		<a href="">jasmeet@tinkerform.com</a>
 	  	</div>
