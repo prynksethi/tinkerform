@@ -4,9 +4,22 @@
     src: url('../font/multicolore.woff') format('woff'),
          url('../font/multicolore.ttf') format('truetype');
 }
+a.statement:-moz-focusring, a.statement:focus {
+	outline: none !important;
+  outline: 0 !important;
+  outline-style:none;
+}
+a.statement::-moz-focus-inner {
+  border: 0;
+}
+.menu-bar{
+overflow:hidden;
+}
 body {
 	font-family: 'Quicksand', 'Arial';
 }
+
+
 .ui-loader {
 	display: none !important;
 }

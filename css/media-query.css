@@ -895,6 +895,16 @@
 	}
 }
 @media only screen and (max-width: 430px) {
+	.menu-bar{
+	overflow:auto;
+	}
+	body{
+	overfloaw-x:hidden;
+	}
+	.header-logo a img{
+	height:100%
+	}
+
 	.mobile-home-content a {
 		display: block;
 	}
